@@ -3,11 +3,11 @@
 # Requisitos Laboratório
 
 1. Domínio Valido para DNS
-   <br>Para criar domínio gratuito, utilize o link: https://my.freenom.com
+   <br>Para criar domínio pago, utilize o link: https://registro.br/ (RECOMENDADO)
    <br>ou
-   <br>Para criar domínio pago, utilize o link: https://registro.br/ 
+   <br>Para criar domínio gratuito, utilize o link: https://my.freenom.com
    <br>ou 
-   <br>de preferencia
+   <br>Outro de preferencia ou disponível
    
    Notas:
    <br>domínio filial365.cf (usado para DNS+EMAIL IMAP No Hostinger) => pode usar provedor de sua preferencia;
