@@ -43,8 +43,8 @@
    <br>Máquina Virtual precisa ter Windows 10 ou 11 com o mínimo de 4 GB de RAM, 30 GB disco.
     
 5. Provedor de e-mail Imap com contas ativas
-   <br>segue sugestões gratuitas ou preferida : https://www.umbler.com/br ou https://support.google.com/accounts/answer/27441?hl=pt-BR
    <br>segue sugestões paga ou preferida: https://www.hostinger.com.br/hospedagem-de-email
+   <br>segue sugestões gratuitas ou preferida : https://www.umbler.com/br ou https://support.google.com/accounts/answer/27441?hl=pt-BR
    <br>e-mail precisa estar com imap liberado na porta 993 ou 143 
    
 Cenários 
