@@ -48,7 +48,7 @@ https://www.microsoft.com/pt-br/microsoft-365/enterprise-mobility-security/compa
 <br>###########
 
 # Licenciamento
-![image](https://user-images.githubusercontent.com/49683486/172044903-4e3bf060-4b30-4969-bfea-5878e353748c.png)
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/73bf046a-b93a-4f74-93e2-53991fc3f68c)
 ![image](https://user-images.githubusercontent.com/49683486/172044939-a7383645-56cc-4ef1-a2d0-76e7144de018.png)
 
 # Introdução Nuvem
