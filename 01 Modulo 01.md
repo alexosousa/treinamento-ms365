@@ -2,7 +2,7 @@
 
 # Produtos
 
-![image](https://user-images.githubusercontent.com/49683486/172044790-567ecff9-ea4c-4675-af17-a5035db1e5b3.png)
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/879645c9-0c53-49f3-b525-ebbb89b0ccc9)
 
 # Planos Microsoft 365
 https://docs.microsoft.com/pt-br/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options
