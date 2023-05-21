@@ -18,6 +18,7 @@
    #Empresa filial (Lab365)
    <br>domínio lab365.com.br (usado para DNS+EMAIL IMAP No Hostinger) => pode usar provedor de sua preferencia;
    <br>domínio lab365.com.br (usado o DNS do Hostinger) => será usado para migrar e-mails imap para Exchange Online => Modulo Exchange Online
+   
    <img width="868" alt="image" src="https://user-images.githubusercontent.com/49683486/172505816-1171b28f-90c3-4e1e-9d6f-f7f0af2b26f2.png">
    
 2. Licença Trial Microsoft 365
