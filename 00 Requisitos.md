@@ -4,7 +4,10 @@
 
 1. Domínio Valido para DNS
    <br>Para criar domínio gratuito, utilize o link: https://my.freenom.com
-   <br>Para criar domínio pago, utilize o link: https://registro.br/ ou de preferencia
+   <br>ou
+   <br>Para criar domínio pago, utilize o link: https://registro.br/ 
+   <br>ou 
+   <br>de preferencia
    
    Notas:
    <br>domínio filial365.cf (usado para DNS+EMAIL IMAP No Hostinger) => pode usar provedor de sua preferencia;
