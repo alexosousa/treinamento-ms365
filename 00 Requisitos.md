@@ -10,14 +10,15 @@
    <br>Outro de preferencia ou disponível
    
    Notas:
-   <br>domínio filial365.cf (usado para DNS+EMAIL IMAP No Hostinger) => pode usar provedor de sua preferencia;
-   <br>domínio filial365.cf (usado o DNS do Hostinger) => será usado para migrar e-mails imap para Exchange Online (modulo Exchnage Online);
+   #Empresa matriz (TotalNuvemTecnologia)
+   domínio totalnuvemtecnologia.com.br (usado para DNS+EMAIL No Microsoft 365);
+   <br>dompinio totalnuvemtecnologia.com.br 
    <img width="873" alt="image" src="https://user-images.githubusercontent.com/49683486/172506059-decd6a6a-fea4-4826-b77d-38b7aecdd239.png">
-
-   domínio matriz365.cf (usado para DNS+EMAIL No Microsoft 365);
-   <br>dompinio matriz.cf  (usado o DNS da Microsoft);
+   
+   #Empresa filial (Lab365)
+   <br>domínio lab365.com.br (usado para DNS+EMAIL IMAP No Hostinger) => pode usar provedor de sua preferencia;
+   <br>domínio lab365.com.br (usado o DNS do Hostinger) => será usado para migrar e-mails imap para Exchange Online (modulo Exchnage Online);
    <img width="868" alt="image" src="https://user-images.githubusercontent.com/49683486/172505816-1171b28f-90c3-4e1e-9d6f-f7f0af2b26f2.png">
-
    
 2. Licença Trial Microsoft 365
    <br>  https://developer.microsoft.com/en-us/microsoft-365/dev-program 
