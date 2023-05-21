@@ -49,7 +49,8 @@
    
 Cenários 
    
-![Atual](https://user-images.githubusercontent.com/49683486/172049836-9bc337f2-0b07-44e0-934a-0454f2b6690d.png)
+![Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/f2ab51c3-c7a3-4cb6-a44b-681b7a4f27d7)
+
 
 ![Proposto](https://user-images.githubusercontent.com/49683486/172049859-c72be4ea-a0ce-46b0-b716-f067d63dff50.png)
 
