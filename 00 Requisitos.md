@@ -12,7 +12,7 @@
    Notas:
    #Empresa matriz (TotalNuvemTecnologia)
    domínio totalnuvemtecnologia.com.br (usado para DNS+EMAIL No Microsoft 365);
-   <br>dompinio totalnuvemtecnologia.com.br 
+   <br>domínio totalnuvemtecnologia.com.br 
    <img width="873" alt="image" src="https://user-images.githubusercontent.com/49683486/172506059-decd6a6a-fea4-4826-b77d-38b7aecdd239.png">
    
    #Empresa filial (Lab365)
