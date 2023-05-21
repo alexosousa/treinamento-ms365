@@ -51,7 +51,7 @@ Cenários (Atual VS Proposto)
    
 ![Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/17ad09ef-ee48-4418-891d-7f132201a264)
 
-![Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/11474666-8081-4168-bed2-a2bc681c5e09)
+![Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/cadcb3a9-d4ad-4677-a39b-3921d6b71415)
 
 Cronograma
 
