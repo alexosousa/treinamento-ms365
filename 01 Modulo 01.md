@@ -43,6 +43,10 @@ https://powerplatform.microsoft.com/pt-br/
 https://www.microsoft.com/pt-br/microsoft-365/exchange/compare-microsoft-exchange-online-plans
 <br>###########
 
+#Windows 365
+https://www.microsoft.com/pt-br/Windows-365
+<br>###########
+
 #EMS
 https://www.microsoft.com/pt-br/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing
 <br>###########
