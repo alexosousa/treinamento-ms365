@@ -55,6 +55,6 @@ Cenários (Atual VS Proposto)
 
 Cronograma
 
-![image](https://user-images.githubusercontent.com/49683486/174597294-7ffdd78a-45b4-4495-bf56-56f5d340e214.png)
+![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/5ae0ff11-4d3d-4f72-831c-6d3ba226cc1c)
 
 FIM
