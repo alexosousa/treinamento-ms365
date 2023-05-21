@@ -47,12 +47,11 @@
    <br>segue sugestões gratuitas ou preferida : https://www.umbler.com/br ou https://support.google.com/accounts/answer/27441?hl=pt-BR
    <br>e-mail precisa estar com imap liberado na porta 993 ou 143 
    
-Cenários 
+Cenários (Atual VS Proposto)
    
-![Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/f2ab51c3-c7a3-4cb6-a44b-681b7a4f27d7)
+![Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/17ad09ef-ee48-4418-891d-7f132201a264)
 
-
-![Proposto](https://user-images.githubusercontent.com/49683486/172049859-c72be4ea-a0ce-46b0-b716-f067d63dff50.png)
+![Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/11474666-8081-4168-bed2-a2bc681c5e09)
 
 Cronograma
 
