@@ -25,12 +25,16 @@
    <img width="868" alt="image" src="https://user-images.githubusercontent.com/49683486/172505816-1171b28f-90c3-4e1e-9d6f-f7f0af2b26f2.png">
    
 2. Licença Trial Microsoft 365
-   <br>  https://developer.microsoft.com/en-us/microsoft-365/dev-program 
-   <br>2.1. Para solicitar um Trial do Microsoft 365 E5 utilize o link (necessário celular e CNPJ): http://go.microsoft.com/fwlink/p/?LinkID=698279&culture=pt-BR&country=BR
+   <br>  
+   <br>2.1. Para solicitar um Trial do Microsoft 365 Enterprise utilize o link (necessário celular e CNPJ): http://go.microsoft.com/fwlink/p/?LinkID=698279&culture=pt-BR&country=BR
    <br>ou
-   <br>2.2. Para solicitar um Trial do Office 365 Business Premium utilize o link (necessário celular e cartão): https://signup.microsoft.com/get-started/signup?products=53e11149-82f9-4bca-a7f2-8f72592e4f03&culture=en-us&country=US&ali=1
+   <br>2.2. Para solicitar um Licença Program Developer Microsoft 365 utilize o link (necessário celular): https://developer.microsoft.com/en-us/microsoft-365/dev-program 
    <br>ou
-<br>2.3. Para solicitar um trial do Microsoft 365 Standard utilize o link (necessário celular e cartão): https://signup.microsoft.com/get-started/signup?products=35dffc92-9eb4-4d5c-82c2-2582b37bb9c4&culture=en-us&country=US&ali=1
+   <br>2.3. Para solicitar um Trial do Office 365 Business Premium utilize o link (necessário celular, CNPJ e cartão): https://signup.microsoft.com/get-started/signup?products=53e11149-82f9-4bca-a7f2-8f72592e4f03&culture=en-us&country=US&ali=1
+   <br>ou
+   <br>2.4. Para solicitar um trial do Microsoft 365 Standard utilize o link (necessário celular, CNPJ e cartão): https://signup.microsoft.com/get-started/signup?products=35dffc92-9eb4-4d5c-82c2-2582b37bb9c4&culture=en-us&country=US&ali=1
+   <br>ou
+   <br>2.5. Para solicitar um trial do Microsoft 365 Enterprise utilize o link (necessário celular, CNPJ e cartão): https://signup.microsoft.com/get-started/signup?products=101bde18-5ffb-4d79-a47b-f5b2c62525b3&culture=pt-BR&country=BR&ali=1
       
 3. Máquina Virtual com Windows Server (Pode ser criado no HyperV, Virtual box, Vmware, Azure, AWS ou preferida)  
    Para criar máquina virtual utilize o link https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
