@@ -9,7 +9,8 @@
    <br>ou 
    <br>Outro de preferencia ou disponível
    
-   <br>Notas:
+   Notas:
+   <br>
    #Empresa matriz (TotalNuvemTecnologia)
    domínio totalnuvemtecnologia.com.br (usado para DNS+EMAIL No Microsoft 365);
    <br>domínio totalnuvemtecnologia.com.br 
