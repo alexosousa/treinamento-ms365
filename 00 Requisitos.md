@@ -1,5 +1,15 @@
 # Treinamento Microsoft 365
 
+# Cenário (Atual VS Proposto)
+   
+[Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/17ad09ef-ee48-4418-891d-7f132201a264)
+
+[Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/cadcb3a9-d4ad-4677-a39b-3921d6b71415)
+
+Cronograma
+
+![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/5ae0ff11-4d3d-4f72-831c-6d3ba226cc1c)
+
 # Requisitos Laboratório
 
 1. Domínio Valido para DNS
@@ -46,15 +56,5 @@
    <br>segue sugestões paga ou preferida: https://www.hostinger.com.br/hospedagem-de-email
    <br>segue sugestões gratuitas ou preferida : https://www.umbler.com/br ou https://support.google.com/accounts/answer/27441?hl=pt-BR
    <br>e-mail precisa estar com imap liberado na porta 993 ou 143 
-   
-Cenários (Atual VS Proposto)
-   
-![Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/17ad09ef-ee48-4418-891d-7f132201a264)
-
-![Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/cadcb3a9-d4ad-4677-a39b-3921d6b71415)
-
-Cronograma
-
-![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/5ae0ff11-4d3d-4f72-831c-6d3ba226cc1c)
 
 FIM
