@@ -44,11 +44,11 @@ Cronograma
    <br>ou
    <br>2.4. Para solicitar um trial do Microsoft 365 Standard utilize o link (necessário celular, CNPJ e cartão): https://signup.microsoft.com/get-started/signup?products=35dffc92-9eb4-4d5c-82c2-2582b37bb9c4&culture=en-us&country=US&ali=1
          
-3. Máquina Virtual com Windows Server (Pode ser criado no HyperV, Virtual box, Vmware, Azure, AWS ou preferida)  
+3. Máquina Virtual com Windows Server (Pode ser criado no HyperV, Virtual box, Vmware, Azure, AWS ou preferida)  (ACTIVE DIRECTORY LOCAL E SERVIDOR DE ARQUIVOS)
    Para criar máquina virtual utilize o link https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
    <br>Servidor precisar ter Windows Server 2016 ou superior com o mínimo de 4 GB de RAM, 30 GB disco e o runtime do .NET 4.7.1+ com todas as atualizações atuais.
 
-4. Máquina Virtual com Windows 11 ou 10 (Pode ser criado no HyperV, Virtual box, Vmware, Azure, AWS ou preferida)  
+4. Máquina Virtual com Windows 11 ou 10 (Pode ser criado no HyperV, Virtual box, Vmware, Azure, AWS ou preferida) (ESTAÇÃO DE TRABALHO)  
    Para criar máquina virtual utilize o link https://www.microsoft.com/pt-br/software-download/windows11
    <br>Máquina Virtual precisa ter Windows 10 ou 11 com o mínimo de 4 GB de RAM, 30 GB disco.
     
