@@ -41,7 +41,7 @@ https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=
 
 #Registros DNS
 <br>Exchange Online
-MX Record matriz.cf.mail.protection.outlook.com (priority 0)
+MX Record br.com.empresa.mail.protection.outlook.com (priority 0)
 <br>Autodiscover
 Autodiscover autodiscover.outlook.com (CNAME)
 <br>SPF
