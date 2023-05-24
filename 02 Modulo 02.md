@@ -1,5 +1,11 @@
 # Modulo 02 - Gerenciamento Domínios, Usuários, Grupos, Recursos e Licenças.
 
+# Licença
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/bc779219-01e8-4122-bc7b-59dc2555b3fb)
+
+# Domínio
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/3e8a8636-52aa-40e4-94db-2f031c07798c)
+
 # Download .csv Import Users
 https://github.com/alexosousa/treinamento-ms365/blob/main/02%20Modulo%2002%20ImportUserFile.csv
 
