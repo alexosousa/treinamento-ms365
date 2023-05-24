@@ -6,7 +6,7 @@ https://github.com/alexosousa/treinamento-ms365/blob/main/02%20Modulo%2002%20Imp
 # PowerShell
 Biblioteca<br>
 https://learn.microsoft.com/en-us/powershell/module/
-MSOnline<br>
+<br>MSOnline<br>
 https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=azureadps-1.0
 
 ![image](https://user-images.githubusercontent.com/49683486/172762015-17351d13-8341-4cb3-bdb7-19afabce3555.png)
