@@ -1,6 +1,6 @@
 # Modulo 02 - Gerenciamento Domínios, Usuários, Grupos, Recursos e Licenças.
 
-# Licença
+# Licenciamento
 ![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/bc779219-01e8-4122-bc7b-59dc2555b3fb)
 
 # Domínio
