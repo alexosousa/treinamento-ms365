@@ -47,11 +47,11 @@ https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=
 
 <br>#Registros DNS<br>
 <br>Exchange Online
-<br>MX Record br.com.empresa.mail.protection.outlook.com (priority 0)
-<br>Autodiscover
+<br>MX Record<br> br.com.empresa.mail.protection.outlook.com (priority 0)
+<br>Autodiscover<br>
 Autodiscover autodiscover.outlook.com (CNAME)
 <br>SPF
-TXT v=spf1 include:spf.protection.outlook.com –all
+TXT <br> v=spf1 include:spf.protection.outlook.com –all
 
 <br>Teams
 <br>Sip sipdir.online.lync.com (CNAME)
