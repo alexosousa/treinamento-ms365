@@ -60,64 +60,64 @@ Service, Port, Weight, Priority, Target
 _sip _tls 443 1 100 sipdir.online.lync.com
 _sipfederationtls _tcp 5061 1 100 sipfed.online.lync.com
 
-#Install Modules
-#Azure AD (AzureAD and MSOnline Module)
-Install-Module MSOnline -AllowClobber
-Install-Module AzureAD -AllowClobber
-Install-Module AzureADPreview -AllowClobber
+<br>#Install Modules
+<br>#Azure AD (AzureAD and MSOnline Module)
+<br>Install-Module MSOnline -AllowClobber
+<br>Install-Module AzureAD -AllowClobber
+<br>Install-Module AzureADPreview -AllowClobber
 
-#Import Modules
-#Azure AD (AzureAD and MSOnline Module)
-Import-Module MSOnline
-Import-Module AzureAD
-Import-Module AzureADPreview
+<br>#Import Modules
+<br>#Azure AD (AzureAD and MSOnline Module)
+<br>Import-Module MSOnline
+<br>Import-Module AzureAD
+<br>Import-Module AzureADPreview
 
-#Conectar Modulo
-Connect-MsolService 
-Connect-MsolService -Credential $Credential 
+<br>#Conectar Modulo
+<br>Connect-MsolService 
+<br>Connect-MsolService -Credential $Credential 
 
-Gerenciamento Domínios
-#Criar um Domínio
-New-MsolDomain –Authentication Managed –Name empresa.com.br
+<br>Gerenciamento Domínios
+<br>#Criar um Domínio
+<br>New-MsolDomain –Authentication Managed –Name empresa.com.br
 
-#Consulta Domínio
-Get-MsolDomain
-Get-MsolDomain -Status Verified
-Get-MsolDomainVerificationDns –DomainName empresa.com.br –Mode DnsTxtRecord
+<br>#Consulta Domínio
+<br>Get-MsolDomain
+<br>Get-MsolDomain -Status Verified
+<br>Get-MsolDomainVerificationDns –DomainName empresa.com.br –Mode DnsTxtRecord
 
-#Remover Domínio
-Remove-MsolDomain -DomainName empresa.com.br
-Remove-MsolDomain -DomainName empresa.com.br -Force
+<br>#Remover Domínio
+<br>Remove-MsolDomain -DomainName empresa.com.br
+<br>Remove-MsolDomain -DomainName empresa.com.br -Force
 
-Gerenciamento Usuários
+<br>Gerenciamento Usuários
 
-#Consultar Usuários
-Get-MsolUser 
-Get-MsolUser | Select DisplayName, ObjectID, -Synchronized
-Get-MsolUser -UserPrincipalName "admin@tn0001.onmicrosoft.com" | Select DisplayName, FirstName, LastName, Department, WHENCREATED
+<br>#Consultar Usuários
+<br>Get-MsolUser 
+<br>Get-MsolUser | Select DisplayName, ObjectID, -Synchronized
+<br>Get-MsolUser -UserPrincipalName "admin@tn0001.onmicrosoft.com" | Select DisplayName, FirstName, LastName, Department, WHENCREATED
 
-#Criar Usuário
-New-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "User XX" -FirstName "Userxx" -LastName "XX"
+<br>#Criar Usuário
+<br>New-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "User XX" -FirstName "Userxx" -LastName "XX"
 
-#Modificar Usuário
-Set-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "David Chew" -FirstName "David" -LastName "Chew" -Department "Finance"
+<br>#Modificar Usuário
+<br>Set-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "David Chew" -FirstName "David" -LastName "Chew" -Department "Finance"
 
-#Remover Usuário
-Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com"
-Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -Force
+<br>#Remover Usuário
+<br>Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com"
+<br>Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -Force
 
-Gerenciamento Licenças
+<br>Gerenciamento Licenças
 
-#Consultar Licenças
-Get-MsolAccountSku
-Get-MsolUser | Where-Object {($_.licenses).AccountSkuId -match "SPB"} #EnterprisePremium
+<br>#Consultar Licenças
+<br>Get-MsolAccountSku
+<br>Get-MsolUser | Where-Object {($_.licenses).AccountSkuId -match "SPB"} #EnterprisePremium
 
-Gerenciamento Grupos
-#Consultar Grupos
-Get-MsolGroup
+<br>Gerenciamento Grupos
+<br>#Consultar Grupos
+<br>Get-MsolGroup
 
-#Criar Grupos
-New-MsolGroup -DisplayName "MeuGrupo" -Description "Meu Grupo"
+<br>#Criar Grupos
+<br>New-MsolGroup -DisplayName "MeuGrupo" -Description "Meu Grupo"
 
-#Remover Grupos 
-Remove-MsolGroup -objectid 05bc8e6f-81a4-455d-af2c-70bd6358da16 #exemplo
+<br>#Remover Grupos 
+<br>Remove-MsolGroup -objectid 05bc8e6f-81a4-455d-af2c-70bd6358da16 #exemplo
