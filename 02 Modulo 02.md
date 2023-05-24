@@ -4,6 +4,8 @@
 https://github.com/alexosousa/treinamento-ms365/blob/main/02%20Modulo%2002%20ImportUserFile.csv
 
 # PowerShell
+Biblioteca<br>
+https://learn.microsoft.com/en-us/powershell/module/
 MSOnline<br>
 https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=azureadps-1.0
 
@@ -52,58 +54,64 @@ Service, Port, Weight, Priority, Target
 _sip _tls 443 1 100 sipdir.online.lync.com
 _sipfederationtls _tcp 5061 1 100 sipfed.online.lync.com
 
-Install Modulos
-<br>Install-Module MSOnline
-<br>Install-Module AzureADPreview
+#Install Modules
+#Azure AD (AzureAD and MSOnline Module)
+Install-Module MSOnline -AllowClobber
+Install-Module AzureAD -AllowClobber
+Install-Module AzureADPreview -AllowClobber
 
-Importe Modulos
-<br>Import-Module MSOnline
+#Import Modules
+#Azure AD (AzureAD and MSOnline Module)
+Import-Module MSOnline
+Import-Module AzureAD
+Import-Module AzureADPreview
 
-Conectar Modulo
-<br>Connect-msolservice
+#Conectar Modulo
+Connect-MsolService 
+Connect-MsolService -Credential $Credential 
 
 Gerenciamento Domínios
 #Criar um Domínio
-<br>New-MsolDomain –Authentication Managed –Name filial36502.cf
+New-MsolDomain –Authentication Managed –Name empresa.com.br
 
 #Consulta Domínio
-<br>Get-MsolDomain
-<br>Get-MsolDomain -Status Verified
-<br>Get-MsolDomainVerificationDns –DomainName filial36502.cf –Mode DnsTxtRecord
+Get-MsolDomain
+Get-MsolDomain -Status Verified
+Get-MsolDomainVerificationDns –DomainName empresa.com.br –Mode DnsTxtRecord
 
 #Remover Domínio
-<br>Remove-MsolDomain -DomainName filial36502.cf
-<br>Remove-MsolDomain -DomainName filial3652.cf -Force
+Remove-MsolDomain -DomainName empresa.com.br
+Remove-MsolDomain -DomainName empresa.com.br -Force
 
 Gerenciamento Usuários
 
 #Consultar Usuários
-<br>Get-MsolUser 
-<br>Get-MsolUser | Select DisplayName, ObjectID, -Synchronized
-<br>Get-MsolUser -UserPrincipalName "userxx@matriz365.cf" | Select DisplayName, FirstName, LastName, Department, WHENCREATED
+Get-MsolUser 
+Get-MsolUser | Select DisplayName, ObjectID, -Synchronized
+Get-MsolUser -UserPrincipalName "admin@tn0001.onmicrosoft.com" | Select DisplayName, FirstName, LastName, Department, WHENCREATED
 
 #Criar Usuário
-<br>New-MsolUser -UserPrincipalName "userxx@matriz365.cf" -DisplayName "User XX" -FirstName "Userxx" -LastName "XX"
+New-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "User XX" -FirstName "Userxx" -LastName "XX"
 
 #Modificar Usuário
-<br>Set-MsolUser -UserPrincipalName "userxx@matriz365.cf" -DisplayName "David Chew" -FirstName "David" -LastName "Chew" -Department "Finance"
+Set-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -DisplayName "David Chew" -FirstName "David" -LastName "Chew" -Department "Finance"
 
 #Remover Usuário
-<br>Remove-MsolUser -UserPrincipalName "userxx@matriz365.cf"
-<br>Remove-MsolUser -UserPrincipalName "userxx@matriz365.cf" -Force
+Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com"
+Remove-MsolUser -UserPrincipalName "user@tn0001.onmicrosoft.com" -Force
 
 Gerenciamento Licenças
 
 #Consultar Licenças
-<br>Get-MsolAccountSku
-<br>Get-MsolUser | Where-Object {($_.licenses).AccountSkuId -match "EnterprisePremium"}
+Get-MsolAccountSku
+Get-MsolUser | Where-Object {($_.licenses).AccountSkuId -match "SPB"} #EnterprisePremium
 
 Gerenciamento Grupos
 #Consultar Grupos
-<br>Get-MsolGroup
+Get-MsolGroup
 
 #Criar Grupos
-<br>New-MsolGroup -DisplayName "MeuGrupo" -Description "Meu Grupo"
+New-MsolGroup -DisplayName "MeuGrupo" -Description "Meu Grupo"
 
 #Remover Grupos 
-<br>Remove-MsolGroup -objectid 05bc8e6f-81a4-455d-af2c-70bd6358da16
+Remove-MsolGroup -objectid 05bc8e6f-81a4-455d-af2c-70bd6358da16 #exemplo
