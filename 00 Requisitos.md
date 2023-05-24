@@ -36,7 +36,7 @@ Cronograma
    
 2. Licença Trial Microsoft 365
    <br>
-   <br>2.1. Para solicitar um Trial do Microsoft 365 Enterprise utilize o link (necessário celular e CNPJ): http://go.microsoft.com/fwlink/p/?LinkID=698279&culture=pt-BR&country=BR
+   <br>2.1. Para solicitar um Trial do Microsoft 365 Enterprise utilize o link (necessário celular, CNPJ e cartão): http://go.microsoft.com/fwlink/p/?LinkID=698279&culture=pt-BR&country=BR
    <br>ou
    <br>2.2. Para solicitar um Licença Program Developer Microsoft 365 utilize o link (necessário celular): https://developer.microsoft.com/en-us/microsoft-365/dev-program 
    <br>ou
