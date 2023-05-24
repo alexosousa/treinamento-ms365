@@ -45,7 +45,7 @@ https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=
 <br>nslookup -type=TXT matriz365.cf 8.8.8.8
 <br>nslookup -type=MX matriz365.cf 8.8.8.8
 
-<br>#Registros DNS
+<br>#Registros DNS<br>
 <br>Exchange Online
 <br>MX Record br.com.empresa.mail.protection.outlook.com (priority 0)
 <br>Autodiscover
