@@ -45,20 +45,20 @@ https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=
 <br>nslookup -type=TXT matriz365.cf 8.8.8.8
 <br>nslookup -type=MX matriz365.cf 8.8.8.8
 
-#Registros DNS
+<br>#Registros DNS
 <br>Exchange Online
-MX Record br.com.empresa.mail.protection.outlook.com (priority 0)
+<br>MX Record br.com.empresa.mail.protection.outlook.com (priority 0)
 <br>Autodiscover
 Autodiscover autodiscover.outlook.com (CNAME)
 <br>SPF
 TXT v=spf1 include:spf.protection.outlook.com –all
 
 <br>Teams
-Sip sipdir.online.lync.com (CNAME)
-Lyncdiscover webdir.online.lync.com (CNAME)
-Service, Port, Weight, Priority, Target
-_sip _tls 443 1 100 sipdir.online.lync.com
-_sipfederationtls _tcp 5061 1 100 sipfed.online.lync.com
+<br>Sip sipdir.online.lync.com (CNAME)
+<br>Lyncdiscover webdir.online.lync.com (CNAME)
+<br>Service, Port, Weight, Priority, Target
+<br>_sip _tls 443 1 100 sipdir.online.lync.com
+<br>_sipfederationtls _tcp 5061 1 100 sipfed.online.lync.com
 
 <br>#Install Modules
 <br>#Azure AD (AzureAD and MSOnline Module)
