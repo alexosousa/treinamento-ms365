@@ -47,6 +47,7 @@ https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoldomain?view=
 
 <br>#Registros DNS<br>
 <br>Exchange Online
+<br>MX
 <br>br.com.empresa.mail.protection.outlook.com (priority 0) =>MX
 <br>Autodiscover<br>
 Autodiscover autodiscover.outlook.com =>CNAME
