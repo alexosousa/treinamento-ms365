@@ -29,27 +29,27 @@
 
 # Script para Criar Usuários no AD (copie o código até # fim e salve como .PS1) <br>
 <br>#Importe Modulo
-<br>Import-Module ActiveDirectory <br>
-<br>#Senhas<br>
-$secpass = Read-Host "Password" -AsSecureString <br>
-<br>#Usuários 
-<br>New-ADUser -Name "Thiago Alves" -SamAccountName thiago.alves -UserPrincipalName "thiago.alves@matriz365.local" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true <br>
-<br>New-ADUser -Name "Thiago Moraes" -SamAccountName thiago.moraes -UserPrincipalName "thiago.moraes@matriz365.local" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
-<br>New-ADUser -Name "Jessica Simoes" -SamAccountName jessica.simoes -UserPrincipalName "jessica.simoes@matriz365.local" -department "Administrativo" -AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
-<br>New-ADUser -Name "Danilo Hora" -SamAccountName danilo.hora -UserPrincipalName "danilo.hora@matriz365.local" -department "Financeiro"-AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
-<br>New-ADUser -Name "Daniel Macedo" -SamAccountName daniel.macedo -UserPrincipalName "daniel.macedo@matriz365.local" -department "TI"-AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
-<br>New-ADUser -Name "Erick Hanada" -SamAccountName erick.hanada -UserPrincipalName "erick.hanada@matriz365.local" -department "TI" -AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
-<br>New-ADUser -Name "Jose Xavier" -SamAccountName jose.xavier -UserPrincipalName "jose.xavier@matriz365.local" -department "Financeiro" -AccountPassword $secpass -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -Enabled:$true<br>
+<br>Import-Module ActiveDirectory
+#Senhas
+$secpass = Read-Host "Password" -AsSecureString
+<br>#Usuários
+<br>New-ADUser -Name "Thiago Alves" -SamAccountName thiago.alves -UserPrincipalName "thiago.alves@totalnuvemtecnologia.com.br" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Thiago Moraes" -SamAccountName thiago.moraes -UserPrincipalName "thiago.moraes@totalnuvemtecnologia.com.br" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Jessica Simoes" -SamAccountName jessica.simoes -UserPrincipalName "jessica.simoes@totalnuvemtecnologia.com.br" -department "Administrativo" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Danilo Hora" -SamAccountName danilo.hora -UserPrincipalName "danilo.hora@totalnuvemtecnologia.com.br" -department "Financeiro"-AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Daniel Macedo" -SamAccountName daniel.macedo -UserPrincipalName "daniel.macedo@totalnuvemtecnologia.com.br" -department "TI"-AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Erick Hanada" -SamAccountName erick.hanada -UserPrincipalName "erick.hanada@totalnuvemtecnologia.com.br" -department "TI" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
+<br>New-ADUser -Name "Jose Xavier" -SamAccountName jose.xavier -UserPrincipalName "jose.xavier@totalnuvemtecnologia.com.br" -department "Financeiro" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
 <br>#Grupos
-<br>New-ADGroup -Name "RH" -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -GroupCategory Security -GroupScope Global <br>
-<br>New-ADGroup -Name "Administrativo" -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -GroupCategory Security -GroupScope Global <br>
-<br>New-ADGroup -Name "Financeiro" -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -GroupCategory Security -GroupScope Global <br>
-<br>New-ADGroup -Name "TI" -Path "OU=Users,OU=Matriz365,DC=matriz365,DC=local" -GroupCategory Security -GroupScope Global <br>
+<br>New-ADGroup -Name "RH" -Path "OU=Groups,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -GroupCategory Security -GroupScope Global 
+<br>New-ADGroup -Name "Administrativo" -Path "OU=Groups,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -GroupCategory Security -GroupScope Global 
+<br>New-ADGroup -Name "Financeiro" -Path "OU=Groups,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -GroupCategory Security -GroupScope Global 
+<br>New-ADGroup -Name "TI" -Path "OU=Groups,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -GroupCategory Security -GroupScope Global 
 <br>#Permissões
-<br>Add-AdGroupMember -Identity RH -Members thiago.alves, thiago.moraes<br>
-<br>Add-AdGroupMember -Identity Administrativo -Members jessica.simoes<br>
-<br>Add-AdGroupMember -Identity Financeiro -Members danilo.hora, jose.xavier<br>
-<br>Add-AdGroupMember -Identity TI -Members daniel.macedo, erick.hanada<br>
+<br>Add-AdGroupMember -Identity RH -Members thiago.alves, thiago.moraes
+<br>Add-AdGroupMember -Identity Administrativo -Members jessica.simoes
+<br>Add-AdGroupMember -Identity Financeiro -Members danilo.hora, jose.xavier
+<br>Add-AdGroupMember -Identity TI -Members daniel.macedo, erick.hanada
 
 #fim script
 
@@ -63,42 +63,42 @@ $secpass = Read-Host "Password" -AsSecureString <br>
 - review Agents
 - New Configuration
 - Configurar parametros de agent
-- filtro de usuários = OU=Users,OU=.Matriz365,DC=matriz365,DC=local
-- validação usuários = CN=AD Connect Cloud,CN=Users,DC=matriz365,DC=local 
+- filtro de usuários = OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local
+- validação usuários = CN=AD Connect Cloud,CN=Users,DC=totalnuvemtecnologia,DC=local 
 
 # Script para modificar Alias no Active Directory
 
 ##Adição e Alteração
 
 <br>#Principal<br>
-$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=.Matriz365,DC=matriz365,DC=local" -filter * | Select SamAccountName, DistinguishedName
-$NewEmail="@matriz365.cf"
+$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -filter * | Select SamAccountName, DistinguishedName
+$NewEmail="@totalnuvemtecnologia.com.br"
 
 Foreach ($User in $Users) { 
 
 $NewSMTP= 'SMTP:'+$User.SamAccountName+$NewEmail
 
-Set-ADUser -Identity $user.DistinguishedName -Add @{ProxyAddresses= $NewSMTP} -Server lab-365-ad-01.matriz365.local <br>
+Set-ADUser -Identity $user.DistinguishedName -Add @{ProxyAddresses= $NewSMTP} -Server ad-01.totalnuvemtecnologia.local <br>
                           } <br>
 <br>#Alias<br>
-$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=.Matriz365,DC=matriz365,DC=local" -filter * | Select SamAccountName, DistinguishedName
-$NewEmail="@filial365.cf"
+$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -filter * | Select SamAccountName, DistinguishedName
+$NewEmail="@totalnuvemtecnologia.com.br"
 
 Foreach ($User in $Users) { 
 
 $NewSMTP= 'smtp:'+$User.SamAccountName+$NewEmail
 
-Set-ADUser -Identity $user.DistinguishedName -Add @{ProxyAddresses= $NewSMTP} -Server lab-365-ad-01.matriz365.local
+Set-ADUser -Identity $user.DistinguishedName -Add @{ProxyAddresses= $NewSMTP} -Server ad-01.totalnuvemtecnologia.local
                           }	  
 <br>##Remover<br>
-$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=.Matriz365,DC=matriz365,DC=local" -filter * | Select SamAccountName, DistinguishedName
-$OldEmail="@filial365.cf"
+$Users=Get-ADUser -SearchBase "OU=Users AD Connect,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -filter * | Select SamAccountName, DistinguishedName
+$OldEmail="@totalnuvemtecnologia.com.br"
 
 Foreach ($User in $Users) { 
 
 $OldSMTP= 'smtp:'+$User.SamAccountName+$OldEmail
 
-Set-ADUser -Identity $user.DistinguishedName -Remove @{ProxyAddresses= $OldSMTP} -Server SRVDC01.matriz365.local
+Set-ADUser -Identity $user.DistinguishedName -Remove @{ProxyAddresses= $OldSMTP} -Server AD-01.totalnuvemtecnologia.local
                            } <br>
 <br>#fim
 
