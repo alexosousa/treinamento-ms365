@@ -30,8 +30,8 @@
 # Script para Criar Usuários no AD (copie o código até # fim e salve como .PS1) <br>
 <br>#Importe Modulo
 <br>Import-Module ActiveDirectory
-#Senhas
-$secpass = Read-Host "Password" -AsSecureString
+<br>#Senhas
+<br>$secpass = Read-Host "Password" -AsSecureString
 <br>#Usuários
 <br>New-ADUser -Name "Thiago Alves" -SamAccountName thiago.alves -UserPrincipalName "thiago.alves@totalnuvemtecnologia.com.br" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
 <br>New-ADUser -Name "Thiago Moraes" -SamAccountName thiago.moraes -UserPrincipalName "thiago.moraes@totalnuvemtecnologia.com.br" -department "RH" -AccountPassword $secpass -Path "OU=Users,OU=Matriz,DC=totalnuvemtecnologia,DC=local" -Enabled:$true
