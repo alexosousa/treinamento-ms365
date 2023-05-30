@@ -106,12 +106,12 @@ Set-ADUser -Identity $user.DistinguishedName -Remove @{ProxyAddresses= $OldSMTP}
 
 <br>#Desativar <br>
 Import-Module MSOnline
-Connect-MsolService
-Set-MsolDirSyncEnabled –EnableDirSync $false
+<br>Connect-MsolService
+<br>Set-MsolDirSyncEnabled –EnableDirSync $false
 
 <br>#Ativar <br>
 Import-Module MSOnline
-Connect-MsolService
-Set-MsolDirSyncEnabled –EnableDirSync $true
+<br>Connect-MsolService
+<br>Set-MsolDirSyncEnabled –EnableDirSync $true
 
 FIM
