@@ -4,7 +4,7 @@
    
 [Atual]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/17ad09ef-ee48-4418-891d-7f132201a264)
 
-[Proposto]![image](https://github.com/alexosousa/treinamento-ms365-05-2023/assets/49683486/cadcb3a9-d4ad-4677-a39b-3921d6b71415)
+[Proposto]!![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/6f14e880-cbc7-4844-8992-9eab607d1c8f)
 
 Cronograma
 
