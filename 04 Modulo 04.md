@@ -24,9 +24,7 @@
 
 # Topologia dos Portais Exchange Online e Segurança
 
-![image](https://github.com/alexosousa/Temporario/assets/49683486/fb9825b8-fdb8-4433-9c4c-9d3eb2c4efbb)
-
-![image](https://github.com/alexosousa/Temporario/assets/49683486/1b3f95b1-557e-41cc-ba12-71b1b105e921)
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/cd5520f2-8392-4298-8abf-8e18a28afe8f)
 
 # Migração do Tipo IMAP
 
