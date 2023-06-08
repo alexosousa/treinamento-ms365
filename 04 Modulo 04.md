@@ -26,6 +26,8 @@
 
 ![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/cd5520f2-8392-4298-8abf-8e18a28afe8f)
 
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/61f0f8fc-7e91-4376-b46d-27b9caf683f3)
+
 # Migração do Tipo IMAP
 
 #Exemplo de ponto de extremidade 
