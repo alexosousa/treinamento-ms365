@@ -95,7 +95,7 @@ Get-EXOMailboxFolderPermission -Identity asousa@lab365.com.br | fl
 
 # Limites do Exchange Online 
 
-![image](https://github.com/alexosousa/Temporario/assets/49683486/5611b77d-a10f-4c34-b3ba-1bfcd944926e)
+![image](https://github.com/alexosousa/treinamento-ms365/assets/49683486/eae9f808-18db-497f-b55d-4e7ca1c3644f)
 
 ![image](https://user-images.githubusercontent.com/49683486/173577890-213925b2-a011-4951-9231-da485d034252.png)
 
